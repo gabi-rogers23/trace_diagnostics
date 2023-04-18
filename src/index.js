@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowswerRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./components/exports";
 
 const App = () => {
@@ -15,7 +15,7 @@ const container = document.getElementById("app");
 const root = createRoot(container);
 
 root.render(
-  <BrowswerRouter>
+  <BrowserRouter>
     <App />
-  </BrowswerRouter>
+  </BrowserRouter>
 );
