@@ -34,6 +34,10 @@ li {
   height: 100px;
   border-bottom: 2px solid black;
   padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
 }
 
 .logo {
@@ -77,7 +81,8 @@ li {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
   color: white;
   position: relative;
 }
@@ -86,19 +91,19 @@ li {
   position: absolute;
   letter-spacing: 3px;
   font-size: 5em;
+  margin: 50px 0 0 50px;
+  text-align: center;
 }
 
 .welcome img {
   height: 500px;
   width: 100%;
   object-fit: cover;
-  padding: 10px;
 }
 
 .mission {
-  position: absolute;
-  width: 40%;
   font-size: small;
+  text-align: center;
 }
 
 .who {
