@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return(<div className="navBarContainer">
-        <div className="logo">TRACE DIAGNOSTICS</div>
+        <div className="logo">TRACE DIAGNOSTICS, INC.</div>
     <nav className="linksContainer">
         <NavLink className="nav_link"> Home </NavLink>
         <NavLink className="nav_link">Environmental Diagnostics</NavLink>
