@@ -6,11 +6,17 @@ import {
     ListItemText,
     Button,
   } from "@mui/material";
+import { HomeIcon } from '@mui/icons-material';
+
+// import HomeIcon from '@mui/icons-material/Home'; 
 
 import { NavLink } from "react-router-dom";
 
 const data = [
-    {name: "Home"},
+    {
+      name: "Home",
+      icon: <HomeIcon/>,
+    },
     { name: "Inbox"},
     { name: "Outbox"},
     { name: "Sent mail"},
@@ -35,7 +41,7 @@ const NavBar = () => {
     return(<div className="navBarContainer">
         <div className="logo">TRACE DIAGNOSTICS, INC.</div>
         <Button onClick={() => setOpen(true)}>Click me</Button>
-      <Drawer open={open} anchor={"right"} onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor={"left"} onClose={() => setOpen(false)}>
         {getList()}
       </Drawer>
     <nav className="linksContainer">
