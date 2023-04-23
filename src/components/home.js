@@ -3,7 +3,7 @@ const space = require("../assets/nasa-CzigtQ8gPi4-unsplash.jpg");
 const Home = () => {
   return (
     <div className="homeContainer">
-      <div className="welcome">
+        <div className="welcome">
         <div className="bigWord">
           Welcome.
         </div>
@@ -13,7 +13,6 @@ const Home = () => {
             customers expectations.
           </div>
       </div>
-
       <div className="whoContainer">
         <h1>Who We Are </h1>
         <p>Trace Diagnostics, Inc. is a state of the art product
