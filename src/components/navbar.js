@@ -22,39 +22,41 @@ import { NavLink } from "react-router-dom";
 const data = [
   {
     name: <NavLink className="nav_link"> Home </NavLink>,
-    icon: <Home />,
+    icon: <Home className="nav_link"/>,
   },
   {
     name: <NavLink className="nav_link">Environmental Diagnostics</NavLink>,
-    icon: <Public />,
+    icon: <Public className="nav_link"/>,
   },
   {
     name: <NavLink className="nav_link">Animal Health Diagnostics</NavLink>,
-    icon: <Pets />,
+    icon: <Pets className="nav_link"/>,
   },
   {
     name: <NavLink className="nav_link">Human Diagnostics</NavLink>,
-    icon: <Person />,
+    icon: <Person className="nav_link"/>,
   },
   {
     name: <NavLink className="nav_link">Technical Compliance</NavLink>,
-    icon: <Biotech />,
+    icon: <Biotech className="nav_link"/>,
   },
   {
     name: <NavLink className="nav_link">
-        Product Development and Manufaturing
+        Product Development & Manufacturing
       </NavLink>,
-    icon: <Computer />
+    icon: <Computer className="nav_link"/>
   },
   { name: <NavLink className="nav_link">Contact Us</NavLink>,
-  icon: <ContactSupport /> },
+  icon: <ContactSupport className="nav_link"/> },
 ];
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   const getList = () => (
-    <div style={{ width: 250 }} onClick={() => setOpen(false)}>
+    <div style={{ width: 300 }} onClick={((e) =>{ 
+      e.preventDefault()
+      setOpen(false)})}>
       {data.map((item, index) => (
         <ListItem key={index}>
           <ListItemIcon>{item.icon}</ListItemIcon>
@@ -68,10 +70,12 @@ const NavBar = () => {
     <div className="navBarContainer">
       <div className="logo">TRACE DIAGNOSTICS, INC.</div>
       <nav className="linksContainer">
-        <Button onClick={() => setOpen(true)}>
+        <Button onClick={((e) => {
+          e.preventDefault()
+          setOpen(true)})}>
           <MenuRounded />
         </Button>
-        <Drawer open={open} anchor={"right"} onClose={() => setOpen(false)}>
+        <Drawer open={open} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
           {getList()}
         </Drawer>
       </nav>
