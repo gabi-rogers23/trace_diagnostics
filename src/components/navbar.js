@@ -16,17 +16,26 @@ import {
   Computer,
   ContactSupport
 } from "@mui/icons-material";
-
+import { styled } from '@mui/material/styles';
 import { NavLink } from "react-router-dom";
+
+const CustomizedButton = styled(Button)`
+  color: #3881BC;
+  font-size: larger;
+
+  :hover {
+    color: #2e8b57;
+  }
+`;
 
 const data = [
   {
     name: <NavLink className="nav_link"> Home </NavLink>,
-    icon: <Home className="nav_link"/>,
+    icon: <Home />,
   },
   {
     name: <NavLink className="nav_link">Environmental Diagnostics</NavLink>,
-    icon: <Public className="nav_link"/>,
+    icon: <Public/>,
   },
   {
     name: <NavLink className="nav_link">Animal Health Diagnostics</NavLink>,
@@ -58,8 +67,7 @@ const NavBar = () => {
       e.preventDefault()
       setOpen(false)})}>
       {data.map((item, index) => (
-        <ListItem key={index}>
-          <ListItemIcon>{item.icon}</ListItemIcon>
+        <ListItem key={index} className="nav_link">{item.icon}
           <ListItemText primary={item.name} />
         </ListItem>
       ))}
@@ -73,7 +81,7 @@ const NavBar = () => {
         <Button onClick={((e) => {
           e.preventDefault()
           setOpen(true)})}>
-          <MenuRounded />
+          <MenuRounded sx={{ fontSize: "25px", color: "#133158"}}/>
         </Button>
         <Drawer open={open} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
           {getList()}
