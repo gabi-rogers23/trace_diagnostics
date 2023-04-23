@@ -42,6 +42,7 @@ li {
 .logo {
   font-size: larger;
   color: #3881BC;
+  margin-left: 25px;
 }
 
 .linksContainer {

@@ -30,7 +30,8 @@ const CustomizedButton = styled(Button)`
 
 const data = [
   {
-    name: <NavLink className="nav_link"> Home </NavLink>,
+    name: <NavLink to="/"
+    end className="nav_link"> Home </NavLink>,
     icon: <Home />,
   },
   {
@@ -38,7 +39,7 @@ const data = [
     icon: <Public/>,
   },
   {
-    name: <NavLink className="nav_link">Animal Health Diagnostics</NavLink>,
+    name: <NavLink to="/animalHealthDiagnostics" className="nav_link">Animal Health Diagnostics</NavLink>,
     icon: <Pets className="nav_link"/>,
   },
   {

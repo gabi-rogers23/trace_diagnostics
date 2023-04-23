@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home, NavBar } from "./components/exports";
+import { Home, NavBar, AnimalHealth } from "./components/exports";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
    <NavBar/>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/animalHealthDiagnostics" element={<AnimalHealth/>}/>
     </Routes>
     </>
   );
