@@ -8,6 +8,10 @@
   line-height: 1.8;
 }
 
+body{
+  animation: 1.5s fadein;
+}
+
 .first-color {
   background: #081f6b;
 }
@@ -50,8 +54,15 @@ li {
 
 .linksContainer {
   position: fixed;
-  top: 15px;
-  right: 15px;
+  top: 25px;
+  right: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #081f6b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav_link {
@@ -74,12 +85,22 @@ li {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: auto;
   text-align: center;
   background-image: url("./nasa-rTZW4f02zY8-unsplash.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .welcome {
@@ -98,6 +119,7 @@ li {
   font-size: 4rem;
   text-align: center;
   color: white;
+  text-shadow: -12px 8px 16px rgba(255, 255, 255, 0.401);
 }
 
 .mission {
@@ -142,8 +164,8 @@ li {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
-.beaker {
-  font-size: 5rem;
+.person{
+  font-size: 4.5rem;
   color: #081f6b;
 }
 
@@ -163,7 +185,8 @@ li {
 .footerContainer {
   height: 75px;
   width: 100%;
-  border:1px solid #086972;
+  background-color:#081f6b;
+  color: white;
   margin-top: 15px;
   left: 0;
   bottom: 0;
@@ -174,7 +197,22 @@ li {
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   font-size: .75rem;
+}
+
+.footerContainer li {
+  margin-right: 15px;
+  text-align: center;
+}
+
+.footerClick:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  margin-top: 6px;
 }

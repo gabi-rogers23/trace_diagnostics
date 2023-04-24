@@ -1,6 +1,9 @@
 import React from "react";
 import NavDrawer from "./navDrawer";
-import { ImLab } from 'react-icons/im';
+import { IoMdFingerPrint } from 'react-icons/io';
+import {FaUsersCog} from 'react-icons/fa'
+
+
 const Home = () => {
   return (<>
       <div ><NavDrawer /></div>
@@ -16,7 +19,9 @@ const Home = () => {
           </div>
       </div>
       <div className="whoContainer">
-        <div className="circle"><ImLab className="beaker"/></div>
+        <div className="circle">
+          <IoMdFingerPrint className="person"/>
+      </div>
         <h1>Who We Are </h1>
         <p>Trace Diagnostics, Inc. is a state of the art product
         development and manufacturing company whose corporate mission is to
