@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "./navbar";
+import NavDrawer from "./navDrawer";
 const Home = () => {
-  return (
+  return (<>
+      <div><NavDrawer /></div>
     <div className="homeContainer">
-      <NavBar />
         <div className="welcome">
         <div className="bigWord">
           Welcome.
@@ -31,7 +31,7 @@ const Home = () => {
         rapid test.</p>
       </div>
     </div>
-  );
+    </> );
 };
 
 export default Home;

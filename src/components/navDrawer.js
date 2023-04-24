@@ -16,7 +16,6 @@ import {
   Computer,
   ContactSupport
 } from "@mui/icons-material";
-import { styled } from '@mui/material/styles';
 import { NavLink } from "react-router-dom";
 
 const data = [
@@ -68,13 +67,13 @@ const data = [
       ))}
     </div>
   );
-  
+
     return(
         <nav className="linksContainer">
         <Button onClick={((e) => {
           e.preventDefault()
           setOpen(true)})}>
-          <MenuRounded sx={{ fontSize: "25px", color:"white" }}/>
+          <MenuRounded sx={{ fontSize: "25px", color:"#3983f6" }}/>
         </Button>
         <Drawer open={open} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
           {getList()}

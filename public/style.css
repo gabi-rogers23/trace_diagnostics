@@ -44,25 +44,26 @@ li {
 .logo {
   font-family: "Orbitron", sans-serif;
   font-size: larger;
-  color: white;
 }
 
+/* NAVDRAWER */
+
 .linksContainer {
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  position: fixed;
+  top: 15px;
+  right: 15px;
 }
 
 .nav_link {
   text-decoration: none;
-  color: #133158;
+  color: #081f6b;
   font-size: 1rem;
   font-family: "IBM Plex Mono";
 }
 
 .nav_link:hover {
   text-decoration: underline;
-  color: #6fa275;
+  color: #086972;
 }
 
 /* HOME */
