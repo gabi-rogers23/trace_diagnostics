@@ -6,7 +6,6 @@ import { Home, NavBar, AnimalHealth, Environmental } from "./components/exports"
 const App = () => {
   return (
     <>
-   <NavBar/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/environmentalDiagnostics" element={<Environmental />} />

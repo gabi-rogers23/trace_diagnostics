@@ -1,8 +1,9 @@
 import React from "react";
-const space = require("../assets/nasa-CzigtQ8gPi4-unsplash.jpg");
+import NavBar from "./navbar";
 const Home = () => {
   return (
     <div className="homeContainer">
+      <NavBar />
         <div className="welcome">
         <div className="bigWord">
           Welcome.
@@ -14,6 +15,7 @@ const Home = () => {
           </div>
       </div>
       <div className="whoContainer">
+        <div className="circle"></div>
         <h1>Who We Are </h1>
         <p>Trace Diagnostics, Inc. is a state of the art product
         development and manufacturing company whose corporate mission is to

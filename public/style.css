@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oxygen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oxygen&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   line-height: 1.8;
 }
 
-.first-color { 
-	background: #071a52; 
-}
-	
-.second-color { 
-	background: #086972; 
+.first-color {
+  background: #081f6b;
 }
 
-.third-color { 
-	background: #17b978; 
+.second-color {
+  background: #086972;
 }
 
-.fourth-color { 
-	background: #a7ff83; 
+.third-color {
+  background: #3983f6;
+}
+
+.fourth-color {
+  background: #76f3fc;
 }
 
 li {
@@ -38,22 +38,20 @@ li {
   width: 100%;
   height: 100px;
   padding: 0 50px 0 50px;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background: #0736c2;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
 }
 
 .logo {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: larger;
   color: white;
 }
 
-/* .linksContainer {
-  margin-right: 50px;
-} */
+.linksContainer {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
 .nav_link {
   text-decoration: none;
@@ -64,12 +62,12 @@ li {
 
 .nav_link:hover {
   text-decoration: underline;
-  color: #6FA275;
+  color: #6fa275;
 }
 
 /* HOME */
 
-.homeContainer{
+.homeContainer {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -80,27 +78,21 @@ li {
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
-
 
 .welcome {
   height: 500px;
   width: 80%;
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  /* background-image: url("./nasa-rTZW4f02zY8-unsplash.jpg");
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  */
 }
 
 .bigWord {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   letter-spacing: 5px;
   font-size: 5rem;
   text-align: center;
@@ -115,7 +107,21 @@ li {
 }
 
 .whoContainer {
-  margin: 25px 0 50px 0;
-  width: 75%;
+  padding: 5% 20% 5% 20%;
+  font-size: 1.1rem;
+  width: 100%;
+  height: 700px;
   color: #133158;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  border: 1px solid #081f6b;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
