@@ -58,7 +58,7 @@ li {
   text-decoration: none;
   color: #081f6b;
   font-size: 1rem;
-  font-family: "IBM Plex Mono";
+  font-family: "Oxygen", sans-serif;
 }
 
 .nav_link:hover {
@@ -70,7 +70,7 @@ li {
 
 .homeContainer {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -95,7 +95,7 @@ li {
 .bigWord {
   font-family: "Orbitron", sans-serif;
   letter-spacing: 5px;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   color: white;
 }
@@ -109,10 +109,10 @@ li {
 
 .whoContainer {
   padding: 5% 20% 5% 20%;
+  margin-top: 10px;
   font-size: 1.1rem;
   width: 100%;
-  height: 700px;
-  color: #133158;
+  height: auto;
   background-color: white;
   display: flex;
   flex-flow: column nowrap;
@@ -120,9 +120,40 @@ li {
   justify-content: center;
 }
 
+.whoContainer h1 {
+  color: #081f6b;
+  margin-top: 15px;
+}
+
+.whoContainer p {
+  color: black;
+  margin-top: 15px;
+}
+
 .circle {
-  border: 1px solid #081f6b;
+  /* border: 1.5px solid #081f6b; */
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.beaker {
+  font-size: 5rem;
+  color: #081f6b;
+}
+
+@media screen and (max-width: 300px) {
+  .circle {
+    height: 100px;
+    width: 100px;
+  }
+
+  .beaker {
+    font-size: 3rem;
+  }
 }
