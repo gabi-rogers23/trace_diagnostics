@@ -105,11 +105,11 @@ li {
 }
 
 .welcome {
-  height: 500px;
+  height: auto;
   width: 80%;
-  margin: 25px 0 0 0;
+  margin: 25px 0 25px 0;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
 }
@@ -127,7 +127,7 @@ li {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  margin: 0 90px 0 90px;
+  margin: 100px 90px 0 90px;
 }
 
 .whoContainer {
@@ -154,7 +154,6 @@ li {
 }
 
 .circle {
-  /* border: 1.5px solid #081f6b; */
   border-radius: 50%;
   height: 175px;
   width: 175px;
@@ -178,6 +177,10 @@ li {
 
   .beaker {
     font-size: 3rem;
+  }
+
+  .mission {
+    font-size: .75rem;
   }
 }
 
