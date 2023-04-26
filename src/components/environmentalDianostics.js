@@ -7,15 +7,11 @@ const Environmental = () => {
     <>
       <NavBar />
       <div className="subContainer">
-        <div className="title">Environmental Diagnostics</div>
-        <div className="iconContainer">
-          <div className="circle">
-            <GiMushrooms className="person" />
-          </div>
-          <div className="circle">
-            <GiMushrooms className="person" />
-          </div>
+      <div className="iconContainer">
+      <div className="title">Environmental Diagnostics</div>
+        <div className="subImage"></div>
         </div>
+
         <div className="description">
           Trace Diagnostics offers development services in the environmental
           industry. For the detection of analytes in order to determine air
