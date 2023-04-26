@@ -128,6 +128,10 @@ li {
   justify-content: space-between;
 }
 
+.homeContainer button:hover {
+  box-shadow: -13px 13px 13px 1px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
