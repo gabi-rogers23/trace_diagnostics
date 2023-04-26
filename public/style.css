@@ -35,6 +35,38 @@ button:hover {
   color: #fff;
 }
 
+.subContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 550px;
+  text-align: center;
+}
+
+.title {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.description {
+  width: 80%;
+  height: auto;
+  margin: 15px 0 0 0;
+}
+
+.iconContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 25px 0 0 25px;
+}
 
 .first-color {
   background: #081f6b;
@@ -219,6 +251,10 @@ li {
     font-size: .75rem;
   }
 }
+
+/* ENVIRONMENTAL */
+
+
 
 /* FOOTER */
 
