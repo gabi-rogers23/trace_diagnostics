@@ -1,9 +1,14 @@
 import React from "react";
+import { NavBar, Footer } from "./exports";
 
 const Environmental = () => {
-    return(
-        <div>Environmental Diagnostics</div>
-    )
-}
+  return (
+    <>
+      <NavBar />
+      <div></div>
+      <Footer />
+    </>
+  );
+};
 
 export default Environmental;

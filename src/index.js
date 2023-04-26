@@ -11,7 +11,6 @@ const App = () => {
       <Route path="/environmentalDiagnostics" element={<Environmental />} />
       <Route path="/animalHealthDiagnostics" element={<AnimalHealth/>}/>
     </Routes>
-    <Footer />
     </>
   );
 };

@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="navBarContainer">
       <div className="logo">TRACE DIAGNOSTICS, INC.</div>
-      <NavDrawer/>
+      <div><NavDrawer/></div>
     </div>
   );
 };

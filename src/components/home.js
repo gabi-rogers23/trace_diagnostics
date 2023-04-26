@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import NavDrawer from "./navDrawer";
+import {NavDrawer, Footer} from "./exports"
 import { IoMdFingerPrint, IoIosArrowDropdown } from "react-icons/io";
 import { Fade } from "@mui/material";
 
@@ -65,6 +65,7 @@ const Home = () => {
           </div>
         </Fade>
       </div>
+      <Footer />
     </>
   );
 };
