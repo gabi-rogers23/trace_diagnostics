@@ -4,7 +4,7 @@ import { GiMushrooms } from "react-icons/gi";
 
 const Environmental = () => {
   return (
-    <>
+    <div className="mainContainer">
       <NavBar />
       <div className="subContainer">
       <div className="iconContainer">
@@ -24,7 +24,7 @@ const Environmental = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
