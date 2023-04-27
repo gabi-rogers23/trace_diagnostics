@@ -58,34 +58,59 @@ button:hover {
   letter-spacing: 5px;
   font-size: 2rem;
   text-align: center;
-  flex-basis: 1;
+  margin: 50px 0 10px 0;
+  color:#081f6b;
 }
 
 .description {
   width: 80%;
   height: auto;
-  margin: 15px 0 0 0;
+  font-size: 1.2rem;
 }
 
-.iconContainer {
+.titleContainer {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
   width: 95%;
+  height: 500px;
   margin: 50px 0 50px 0;
   padding: 25px;
-  border: .5px solid rgb(57, 53, 53);
+  background-color: rgba(255, 255, 255, 0.809);
+  box-shadow: -13px 30px 23px 5px rgba(0, 0, 0, 0.3);
+  border: .5px solid rgba(163, 161, 161, 0.629)
 }
 
+.iconContainer{
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconContainer .circle {
+  height: 100px;
+  width: 100px;
+  background-color:#081f6b;;
+}
+
+.iconContainer .person {
+  color: white;
+  font-size: 3rem;
+}
 .subImage{
-  flex-basis: 2;
-  height: 500px;
+  height: 700px;
   width: 100%;
+  margin: 0px 0 25px 0;
+  position: absolute;
+  z-index: -999;
   background-image: url("/sander-mathlener-SIZd5QF5a7M-unsplash.jpg");
+  opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;  
+  background-size: cover;  
 }
 
 .first-color {
@@ -118,7 +143,7 @@ li {
   padding: 0 25px 0 25px;
   width: 100%;
   height: 100px;
-  background-color: #3983f6;
+  background-color:#081f6b;
 }
 
 .logo {
