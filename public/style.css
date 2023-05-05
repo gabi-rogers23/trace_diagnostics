@@ -100,6 +100,7 @@ button:hover {
   color: white;
   font-size: 3rem;
 }
+
 .subImage{
   height: 700px;
   width: 100%;
@@ -252,7 +253,6 @@ li {
 
 .whoContainer {
   padding: 5% 20% 5% 20%;
-  margin-top: 10px;
   font-size: 1.1rem;
   width: 100%;
   height: auto;
@@ -287,6 +287,27 @@ li {
 .person{
   font-size: 4.5rem;
   color: #081f6b;
+}
+
+@media screen and (max-width: 600px){
+  .bigWord{
+    font-size: 2.5rem;
+  }
+
+  .mission {
+    font-size: 1rem;
+    width: 100%;
+    margin: 25px 0 0 0;
+  }
+
+.welcome{
+  margin: 0 0 200px 0;
+}
+
+.whoContainer {
+  padding: 5% 10% 5% 10%;
+}
+
 }
 
 @media screen and (max-width: 300px) {

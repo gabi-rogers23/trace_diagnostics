@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import {NavDrawer, Footer} from "./exports"
+import { NavDrawer, Footer } from "./exports";
 import { IoMdFingerPrint, IoIosArrowDropdown } from "react-icons/io";
 import { Fade } from "@mui/material";
 
@@ -8,7 +8,13 @@ const Home = () => {
   const boxElement = useRef();
   const aboutUs = useRef();
 
-  const scrollTo = (pageSection) => { window.scrollTo({ top: pageSection.current.offsetTop, behavior: 'smooth', transition: '1s' });}
+  const scrollTo = (pageSection) => {
+    window.scrollTo({
+      top: pageSection.current.offsetTop,
+      behavior: "smooth",
+      transition: "1s",
+    });
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -34,18 +40,23 @@ const Home = () => {
             customers needs, meet our customers requirements, and to exceed our
             customers expectations.
           </div>
-          <button onClick={((e)=>{
-            e.preventDefault()
-            scrollTo(aboutUs)
-          })}>Learn More<IoIosArrowDropdown/></button>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              scrollTo(aboutUs);
+            }}
+          >
+            Learn More
+            <IoIosArrowDropdown />
+          </button>
         </div>
 
-        <Fade in={myElementIsVisible}>
-          <div className="whoContainer" ref={aboutUs}>
-            <div className="circle" ref={boxElement}>
+        <Fade in={myElementIsVisible} >
+          <div className="whoContainer" ref={aboutUs} >
+            <div className="circle">
               <IoMdFingerPrint className="person" />
             </div>
-            <h1 >Who We Are </h1>
+            <h1 ref={boxElement}>Who We Are </h1>
             <p>
               Trace Diagnostics, Inc. is a state of the art product development
               and manufacturing company whose corporate mission is to provide
@@ -53,9 +64,9 @@ const Home = () => {
               services to the human healthcare, veterinary, and environmental
               industries. It is our goal to establish this company as a FDA and
               USDA cGMP compliant manufacturer in order to ensure that all
-              products and services meet the highest quality standards.{" "}
+              products and services meet the highest quality standards.
             </p>
-            <p ref={boxElement}>
+            <p ref={aboutUs}>
               Trace Diagnostics offers to the diagnostic industry, market
               expertise, expertise in product development, expertise in
               immunoassay manufacturing as well as expertise in plastics and
