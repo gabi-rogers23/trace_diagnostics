@@ -41,11 +41,11 @@ const Home = () => {
         </div>
 
         <Fade in={myElementIsVisible}>
-          <div className="whoContainer">
+          <div className="whoContainer" ref={aboutUs}>
             <div className="circle" ref={boxElement}>
               <IoMdFingerPrint className="person" />
             </div>
-            <h1 ref={aboutUs}>Who We Are </h1>
+            <h1 >Who We Are </h1>
             <p>
               Trace Diagnostics, Inc. is a state of the art product development
               and manufacturing company whose corporate mission is to provide
