@@ -9,21 +9,21 @@
   scroll-behavior: smooth;
 }
 
-body{
+body {
   animation: 1.5s fadein;
 }
 
 button {
-  background-color:#081f6b;
+  background-color: #081f6b;
   color: white;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
   cursor: pointer;
   font-size: 1rem;
   text-align: center;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   text-decoration: none #0d172a solid;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
   -webkit-user-select: none;
@@ -31,20 +31,20 @@ button {
 }
 
 button:hover {
-  background-color:#3983f6;
+  background-color: #3983f6;
   color: #fff;
 }
 
-.mainContainer{
+/* .mainContainer {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .subContainer {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -58,14 +58,16 @@ button:hover {
   letter-spacing: 5px;
   font-size: 2rem;
   text-align: center;
-  margin: 50px 0 10px 0;
+  margin: 50px 0 25px 0;
   color:#081f6b;
+  border-bottom: .5px solid #081f6b;
 }
 
 .description {
   width: 80%;
   height: auto;
   font-size: 1.2rem;
+  text-align: left;
 }
 
 .titleContainer {
@@ -74,18 +76,19 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 95%;
-  height: 500px;
-  margin: 50px 0 50px 0;
+  height: auto;
+  margin: 30px 0 0px 0;
   padding: 25px;
   background-color: rgba(255, 255, 255, 0.809);
   box-shadow: -13px 30px 23px 5px rgba(0, 0, 0, 0.3);
-  border: .5px solid rgba(163, 161, 161, 0.629)
+  border: 0.5px solid rgba(163, 161, 161, 0.629);
 }
 
-.iconContainer{
+.iconContainer {
   display: flex;
   flex-flow: row wrap;
   width: 50%;
+  margin: 25px 0 25px 0;
   justify-content: space-around;
   align-items: center;
 }
@@ -93,7 +96,7 @@ button:hover {
 .iconContainer .circle {
   height: 100px;
   width: 100px;
-  background-color:#081f6b;;
+  background-color: #081f6b;
 }
 
 .iconContainer .person {
@@ -101,17 +104,17 @@ button:hover {
   font-size: 3rem;
 }
 
-.subImage{
-  height: 700px;
+.subImage {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   width: 100%;
-  margin: 0px 0 25px 0;
-  position: absolute;
-  z-index: -999;
   background-image: url("/sander-mathlener-SIZd5QF5a7M-unsplash.jpg");
-  opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size:contain;
 }
 
 .first-color {
@@ -144,7 +147,7 @@ li {
   padding: 0 25px 0 25px;
   width: 100%;
   height: 100px;
-  background-color:#081f6b;
+  background-color: #081f6b;
 }
 
 .logo {
@@ -170,6 +173,9 @@ li {
 
 .linksContainer button {
   box-shadow: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .linksContainer:hover {
@@ -203,7 +209,7 @@ li {
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .homeContainer button {
@@ -285,16 +291,17 @@ li {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
-.person{
+.person {
   font-size: 4.5rem;
   color: #081f6b;
 }
 
-@media screen and (max-width: 600px){
-  .bigWord{
+@media screen and (max-width: 600px) {
+  .bigWord {
     font-size: 2.5rem;
   }
 
@@ -304,14 +311,13 @@ li {
     margin: 25px 0 0 0;
   }
 
-.welcome{
-  margin: 0 0 200px 0;
-}
+  .welcome {
+    margin: 0 0 200px 0;
+  }
 
-.whoContainer {
-  padding: 5% 10% 5% 10%;
-}
-
+  .whoContainer {
+    padding: 5% 10% 5% 10%;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -325,20 +331,18 @@ li {
   }
 
   .mission {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 /* ENVIRONMENTAL */
-
-
 
 /* FOOTER */
 
 .footerContainer {
   height: 75px;
   width: 100%;
-  background-color:#081f6b;
+  background-color: #081f6b;
   color: white;
   margin-top: 15px;
   left: 0;
@@ -352,7 +356,7 @@ li {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .footerContainer li {

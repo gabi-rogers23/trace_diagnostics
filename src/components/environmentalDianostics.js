@@ -8,8 +8,8 @@ const Environmental = () => {
     <div className="mainContainer">
       <NavBar />
       <div className="subContainer">
-      <div className="subImage"></div>
       <div className="titleContainer">
+      {/* <div className="subImage"></div> */}
         <div className="iconContainer">
       <div className="circle">
               <GiMushrooms className="person" />
@@ -22,6 +22,7 @@ const Environmental = () => {
             </div> 
             </div>
       <div className="title">Environmental Diagnostics</div>
+
         <div className="description">
           Trace Diagnostics offers development services in the environmental
           industry. For the detection of analytes in order to determine air
