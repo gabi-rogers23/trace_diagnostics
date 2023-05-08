@@ -70,7 +70,8 @@ const data = [
 
     return(
         <nav className="linksContainer">
-        <Button onClick={((e) => {
+        <Button 
+        onClick={((e) => {
           e.preventDefault()
           setOpen(true)})}>
           <MenuRounded sx={{ fontSize: "25px", color:"blue"}}/>
