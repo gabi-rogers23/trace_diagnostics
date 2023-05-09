@@ -255,17 +255,17 @@ li {
 .bigWord {
   font-family: "Orbitron", sans-serif;
   letter-spacing: 5px;
+  margin: 100px 0 0px 0;
   font-size: 4rem;
   text-align: center;
   color: white;
-  text-shadow: -12px 8px 16px rgba(255, 255, 255, 0.401);
 }
 
 .mission {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  margin: 100px 90px 0 90px;
+  margin: 25px 90px 0 90px;
 }
 
 .whoContainer {
