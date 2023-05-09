@@ -74,7 +74,7 @@ const data = [
         onClick={((e) => {
           e.preventDefault()
           setOpen(true)})}>
-          <MenuRounded sx={{ fontSize: "25px", color:"blue"}}/>
+          <MenuRounded sx={{ fontSize: "25px", color:"#081f6b"}}/>
         </Button>
         <Drawer open={open} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
           {getList()}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oxygen:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,6 +7,15 @@
   font-family: "Oxygen", sans-serif;
   line-height: 1.8;
   scroll-behavior: smooth;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 body {
@@ -35,12 +44,9 @@ button:hover {
   color: #fff;
 }
 
-/* .mainContainer {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-} */
+.mainContainer {
+  animation: 1s fadein;
+}
 
 .subContainer {
   display: flex;
@@ -48,26 +54,26 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
   min-height: 550px;
   text-align: center;
 }
 
 .title {
-  font-family: "Orbitron", sans-serif;
-  letter-spacing: 5px;
-  font-size: 2rem;
+  font-weight: 700;
+  width: 70%;
+  letter-spacing: 3px;
+  font-size: 3.75rem;
   text-align: center;
-  margin: 50px 0 25px 0;
-  color:#081f6b;
-  border-bottom: .5px solid #081f6b;
+  color: white;
 }
 
 .description {
-  width: 80%;
+  width: 70%;
   height: auto;
   font-size: 1.2rem;
   text-align: left;
+  margin: 25px 0 25px 0px;
+  color: white;
 }
 
 .titleContainer {
@@ -75,28 +81,29 @@ button:hover {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin: 30px 0 0px 0;
+  margin: 15px 0 0 0;
   padding: 25px;
-  background-color: rgba(255, 255, 255, 0.809);
-  box-shadow: -13px 30px 23px 5px rgba(0, 0, 0, 0.3);
-  border: 0.5px solid rgba(163, 161, 161, 0.629);
+  background-color: #086972;
+ 
 }
 
 .iconContainer {
   display: flex;
   flex-flow: row wrap;
-  width: 50%;
-  margin: 25px 0 25px 0;
+  width: 75%;
   justify-content: space-around;
   align-items: center;
+  margin: 25px 0 0px 0px;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid white;
 }
 
 .iconContainer .circle {
   height: 100px;
   width: 100px;
-  background-color: #081f6b;
+  border: 1px solid white;
 }
 
 .iconContainer .person {
@@ -105,16 +112,16 @@ button:hover {
 }
 
 .subImage {
+  height: 400px;
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 100%;
-  background-image: url("/sander-mathlener-SIZd5QF5a7M-unsplash.jpg");
-  background-position: center;
+  background-image: url("/guido-blokker-7qhL24a3kLs-unsplash.jpg");
+  background-position: left;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
 }
 
 .first-color {
@@ -147,13 +154,13 @@ li {
   padding: 0 25px 0 25px;
   width: 100%;
   height: 100px;
-  background-color: #081f6b;
+  background-color: white
 }
 
 .logo {
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   font-family: "Orbitron", sans-serif;
-  color: white;
+  color: #081f6b;
 }
 
 /* NAVDRAWER */
@@ -179,8 +186,15 @@ li {
 }
 
 .linksContainer:hover {
-  box-shadow: -5px 5px 25px 1px rgba(0, 0, 0, 0.3);
-  background-color: #3983f6;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #081f6b;
+  box-shadow: none;
+}
+
+.linksContainer button:hover{
+  box-shadow: none;
+  background-color: none;
 }
 
 .nav_link {
@@ -226,14 +240,6 @@ li {
   box-shadow: -13px 13px 13px 1px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 .welcome {
   height: auto;
