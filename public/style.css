@@ -88,6 +88,13 @@ button:hover {
   background-color: #086972;
 }
 
+.quote{
+  color: white;
+  width: 80%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid white;
+}
+
 .iconContainer {
   display: flex;
   flex-flow: row wrap;
@@ -96,7 +103,6 @@ button:hover {
   align-items: center;
   margin: 25px 0 0px 0px;
   padding: 0 0 30px 0;
-  border-bottom: 1px solid white;
 }
 
 .iconContainer .circle {
@@ -117,8 +123,21 @@ button:hover {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background-image: url("/guido-blokker-7qhL24a3kLs-unsplash.jpg");
-  background-position: left;
+  background-image: url("/enviro.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subImageAnimal{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/freddie-marriage-w39PTDxKiK8-unsplash.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

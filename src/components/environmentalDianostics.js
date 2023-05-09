@@ -23,6 +23,7 @@ const Environmental = () => {
               <GiChemicalDrop className="person" />
             </div>
           </div>
+          <div className="quote"></div>
           <div className="description">
             Trace Diagnostics offers development services in the environmental
             industry. For the detection of analytes in order to determine air
@@ -36,13 +37,7 @@ const Environmental = () => {
         </div>
       </div>
       <div className="credit">
-        Photo by:{" "}
-        <a
-          href="https://unsplash.com/@gblokker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          target="_blank"
-        >
-          Guido Blokker.
-        </a>
+        Photo by:{" "}<a href="https://unsplash.com/de/@timothycdykes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Timothy Dykes</a> 
       </div>
       <Footer />
     </div>
