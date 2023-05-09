@@ -37,7 +37,7 @@ const data = [
       icon: <Person className="nav_link"/>,
     },
     {
-      name: <NavLink className="nav_link">Technical Compliance</NavLink>,
+      name: <NavLink to="/technicalCompliance" className="nav_link">Technical Compliance</NavLink>,
       icon: <Biotech className="nav_link"/>,
     },
     {

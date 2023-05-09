@@ -155,6 +155,19 @@ button:hover {
   background-size: cover;
 }
 
+.subImageTechnical {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/romain-dancre-doplSDELX7E-unsplash.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .credit {
   font-size: 0.5rem;
   width: 98%;
@@ -344,7 +357,11 @@ li {
   color: #081f6b;
 }
 
-/* ENVIRONMENTAL */
+/* TECHNICAL COMPLIANCE */
+
+.techImg{
+  box-shadow: -3px 4px 5px 0px rgba(8, 31, 107, 0.432);
+}
 
 /* FOOTER */
 

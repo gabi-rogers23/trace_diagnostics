@@ -4,4 +4,5 @@ export { default as AnimalHealth } from "./animalHealthDiagnostics";
 export { default as Environmental } from "./environmentalDianostics";
 export { default as NavDrawer } from "./navDrawer";
 export { default as Footer } from "./footer";
-export { default as HumanDiagnostics} from "./humanDiagnostics"
+export { default as HumanDiagnostics } from "./humanDiagnostics";
+export { default as TechnicalCompliance } from "./technicalCompliance";
