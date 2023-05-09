@@ -155,7 +155,7 @@ li {
 
 .navBarContainer {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px 0 25px;
@@ -314,46 +314,7 @@ li {
   color: #081f6b;
 }
 
-@media screen and (max-width: 600px) {
-  .bigWord {
-    font-size: 2.5rem;
-  }
 
-  .mission {
-    font-size: 1rem;
-    width: 100%;
-    margin: 25px 0 0 0;
-  }
-
-  .welcome {
-    margin: 0 0 200px 0;
-  }
-
-  .whoContainer {
-    padding: 5% 10% 5% 10%;
-  }
-
-  .title{
-    font-size: 2.75rem;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .circle {
-    height: 100px;
-    width: 100px;
-  }
-
-  .beaker {
-    font-size: 3rem;
-  }
-
-  .mission {
-    font-size: 0.75rem;
-  }
-
-
-}
 
 /* ENVIRONMENTAL */
 
@@ -392,4 +353,79 @@ li {
 .arrow {
   font-size: 1.5rem;
   margin-top: 6px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .bigWord {
+    font-size: 2.75rem;
+  }
+  
+  .mission {
+    font-size: 1rem;
+    width: 100%;
+    margin: 25px 0 0 0;
+  }
+  
+  .welcome {
+    margin: 0 0 200px 0;
+  }
+  
+  .whoContainer {
+    padding: 5% 10% 5% 10%;
+  }
+  
+  .title{
+    font-size: 2.75rem;
+  }
+  
+  .logo{
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .circle {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bigWord{
+    font-size: 1.75rem;
+  }
+
+  .navBarContainer{
+    padding: 0 3px 0 3px;
+  }
+
+  .logo{
+    font-size: 1rem;
+  }
+
+  .whoContainer h1{
+    font-size: 1.5rem;
+  }
+
+  .whoContainer p{
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .beaker {
+    font-size: 3rem;
+  }
+
+  .mission {
+    font-size: 1rem;
+  }
+
+  .description{
+    font-size: 1rem;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    padding: 0;
+  }
 }
