@@ -325,6 +325,10 @@ li {
   .whoContainer {
     padding: 5% 10% 5% 10%;
   }
+
+  .title{
+    font-size: 2.75rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -340,6 +344,8 @@ li {
   .mission {
     font-size: 0.75rem;
   }
+
+
 }
 
 /* ENVIRONMENTAL */
