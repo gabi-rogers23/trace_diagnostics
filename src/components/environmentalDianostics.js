@@ -32,8 +32,9 @@ const Environmental = () => {
           settings.
         </div>
         </div>
-
       </div>
+        <div className="credit">Photo by: <a href="https://unsplash.com/@gblokker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  target="_blank">Guido Blokker.</a>
+        </div>
       <Footer />
     </div>
   );
