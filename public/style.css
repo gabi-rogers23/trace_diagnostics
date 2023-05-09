@@ -161,6 +161,7 @@ li {
   font-size: 1.55rem;
   font-family: "Orbitron", sans-serif;
   color: #081f6b;
+  cursor: pointer;
 }
 
 /* NAVDRAWER */
