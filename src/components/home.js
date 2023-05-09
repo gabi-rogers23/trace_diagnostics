@@ -56,8 +56,8 @@ const Home = () => {
             <div className="circle">
               <IoMdFingerPrint className="person" />
             </div>
-            <h1 ref={boxElement}>Who We Are </h1>
-            <p>
+            <h1 >Who We Are </h1>
+            <p ref={boxElement}>
               Trace Diagnostics, Inc. is a state of the art product development
               and manufacturing company whose corporate mission is to provide
               quality rapid immunoassay products and contract manufacturing
