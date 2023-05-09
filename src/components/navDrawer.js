@@ -33,7 +33,7 @@ const data = [
       icon: <Pets className="nav_link"/>,
     },
     {
-      name: <NavLink className="nav_link">Human Diagnostics</NavLink>,
+      name: <NavLink to="/HumanDiagnostics" className="nav_link">Human Diagnostics</NavLink>,
       icon: <Person className="nav_link"/>,
     },
     {
