@@ -181,6 +181,19 @@ button:hover {
   background-size: cover;
 }
 
+.subImageContact {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .credit {
   font-size: 0.5rem;
   width: 98%;
@@ -361,8 +374,8 @@ li {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  box-shadow: rgba(231, 231, 235, 0.1) 0px 1px 0px,
+    rgba(189, 189, 198, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
 .person {
@@ -374,6 +387,47 @@ li {
 
 .techImg{
   box-shadow: -3px 4px 5px 0px rgba(8, 31, 107, 0.432);
+}
+
+/* CONTACT */
+.contentContact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 15px 0 0 0;
+  background-color: #086972;
+}
+
+.contactIcon{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 75%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 25px 0 0px 0px;
+  color: white;
+  text-align: left;
+}
+
+.contactIcon a {
+  color: white;
+}
+
+
+.contactIcon .circle {
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  margin: 0 25px 0 0;
+}
+
+.contactIcon .person {
+  color: white;
+  font-size: 3rem;
 }
 
 /* FOOTER */
