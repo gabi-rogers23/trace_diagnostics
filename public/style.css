@@ -417,6 +417,10 @@ li {
   color: white;
 }
 
+.contactIcon span {
+  width: 75%;
+}
+
 
 .contactIcon .circle {
   height: 100px;
@@ -492,6 +496,14 @@ li {
 
   .logo {
     font-size: 1.25rem;
+  }
+
+  .contactIcon{
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+  .contactIcon span{
+    width: 60%;
   }
 }
 

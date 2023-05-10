@@ -27,7 +27,7 @@ const Contact = () => {
               <AiTwotonePhone className="person" />
             </div>
             <span>
-              <b>Phone: </b>847-9-TRACE-9 (+1 847-987-2239)
+              <b>Phone: </b>847-9-TRACE-9<br/> (+1 847-987-2239)
             </span>
           </div>
           <div className="contactIcon">
