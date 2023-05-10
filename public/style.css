@@ -404,7 +404,7 @@ li {
 .contactIcon{
   display: flex;
   flex-flow: row nowrap;
-  width: 75%;
+  width: 50%;
   height: auto;
   justify-content: flex-start;
   align-items: center;

@@ -18,8 +18,8 @@ const Contact = () => {
               <FaMapMarkerAlt className="person" />
             </div>
             <span>
-              Trace Diagnostics, Inc.
-              <br /> 830 Seton Court, Suite 12 Wheeling, IL 60090
+              <b>Address: </b>Trace Diagnostics, Inc.
+              <br /> 830 Seton Court, Suite 12<br/> Wheeling, IL 60090
             </span>
           </div>
           <div className="contactIcon">
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             <span>
               <b>Accounts Payable and Billing: </b>Trace Diagnostics, Inc.
-              <br /> 2033 N. Milwaukee Ave., Suite 120 Riverwoods, IL 60015
+              <br /> 2033 N. Milwaukee Ave., Suite 120 <br/>Riverwoods, IL 60015
             </span>
           </div>
 
