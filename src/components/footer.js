@@ -12,7 +12,7 @@ const Footer = () => {
             <li>|</li>
             <li className="footerClick" onClick={((e)=>{
                 e.preventDefault()
-                navigate("/environmentalDiagnostics")
+                navigate("/contactUs")
             })}>Contact Us</li>
             <li>|</li>
             <li>© TRACE DIAGNOSTICS, INC. 2023</li>

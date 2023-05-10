@@ -41,12 +41,12 @@ const data = [
       icon: <Biotech className="nav_link"/>,
     },
     {
-      name: <NavLink className="nav_link">
+      name: <NavLink to="/productDevelopment" className="nav_link">
           Product Development & Manufacturing
         </NavLink>,
       icon: <Computer className="nav_link"/>
     },
-    { name: <NavLink className="nav_link">Contact Us</NavLink>,
+    { name: <NavLink to="/contactUs" className="nav_link">Contact Us</NavLink>,
     icon: <ContactSupport className="nav_link"/> },
   ];
 

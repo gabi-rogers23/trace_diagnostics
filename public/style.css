@@ -168,6 +168,19 @@ button:hover {
   background-size: cover;
 }
 
+.subImageProduct {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/national-cancer-institute-XknuBmnjbKg-unsplash.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .credit {
   font-size: 0.5rem;
   width: 98%;
