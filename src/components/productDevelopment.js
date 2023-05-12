@@ -42,7 +42,7 @@ const ProductDevelopment = () => {
       </div>
       <div className="credit">
         Photo by:{" "}
-        <a href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        <a target="_blank" href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           National Cancer Institute
         </a>
       </div>

@@ -51,7 +51,7 @@ const TechnicalCompliance = () => {
       </div>
       <div className="credit">
         Photo by:{" "}
-        <a href="https://unsplash.com/@romaindancre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Romain Dancre</a> 
+        <a target="_blank" href="https://unsplash.com/@romaindancre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Romain Dancre</a> 
       </div>
       <Footer />
     </div>

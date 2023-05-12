@@ -76,6 +76,12 @@ const Home = () => {
           </div>
         </Fade>
       </div>
+      <div className="credit">
+        Photo by:{" "}
+        <a target="_blank" href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          NASA
+        </a>
+      </div>
       <Footer />
     </>
   );

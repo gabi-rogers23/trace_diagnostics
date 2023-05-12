@@ -45,7 +45,7 @@ const AnimalHealth = () => {
       </div>
       <div className="credit">
         Photo by:{" "}
-        <a href="https://unsplash.com/@mnelson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        <a target="_blank" href="https://unsplash.com/@mnelson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           Matt Nelson
         </a>
       </div>
