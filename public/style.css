@@ -553,4 +553,8 @@ li {
   .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
     padding: 0;
   }
+
+  .techImg{
+    width: 200px;
+  }
 }
