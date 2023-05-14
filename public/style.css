@@ -42,6 +42,7 @@ button {
 button:hover {
   background-color: #3983f6;
   color: #fff;
+  box-shadow: none;
 }
 
 .mainContainer {
@@ -285,6 +286,7 @@ li {
 .nav_link:hover {
   text-decoration: underline;
   color: #086972;
+  box-shadow: none;
 }
 
 /* HOME */
