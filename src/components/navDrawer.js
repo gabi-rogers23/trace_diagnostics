@@ -5,6 +5,7 @@ import {
   ListItemIcon,
   ListItemText,
   Button,
+  Fab
 } from "@mui/material";
 import {
   MenuRounded,
@@ -70,13 +71,13 @@ const data = [
 
     return(
         <nav className="linksContainer">
-        <Button 
+        <Fab variant="contained" size={"medium"} sx={{backgroundColor:"white"}}
         onClick={((e) => {
           e.preventDefault()
           setOpen(true)})}>
-          <MenuRounded sx={{ fontSize: "25px", color:"#081f6b"}}/>
-        </Button>
-        <Drawer open={open} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
+          <MenuRounded sx={{color:"#081f6b"}}/>
+        </Fab>
+        <Drawer open={open} sx={{borderRadius:"50%"}} anchor={"right"} transitionDuration={500}onClose={() => setOpen(false)}>
           {getList()}
         </Drawer>
       </nav>

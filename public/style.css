@@ -250,15 +250,10 @@ li {
   right: 25px;
   height: 40px;
   width: 40px;
-  background-color: white;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
-.linksContainer button {
-  box-shadow: none;
+/* .linksContainer button {
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -268,13 +263,8 @@ li {
   height: 40px;
   width: 40px;
   border: 1px solid #081f6b;
-  box-shadow: none;
-}
-
-.linksContainer button:hover {
-  box-shadow: none;
-  background-color: none;
-}
+  box-shadow: white;
+} */
 
 .nav_link {
   text-decoration: none;
