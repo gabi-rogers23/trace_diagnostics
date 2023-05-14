@@ -19,7 +19,8 @@ const Contact = () => {
             </div>
             <span>
               <b>Address: </b>Trace Diagnostics, Inc.
-              <br /> 830 Seton Court, Suite 12<br/> Wheeling, IL 60090
+              <br /> 830 Seton Court, Suite 12
+              <br /> Wheeling, IL 60090
             </span>
           </div>
           <div className="contactIcon">
@@ -27,7 +28,8 @@ const Contact = () => {
               <AiTwotonePhone className="person" />
             </div>
             <span>
-              <b>Phone: </b>847-9-TRACE-9<br/> (+1 847-987-2239)
+              <b>Phone: </b>847-9-TRACE-9
+              <br /> (+1 847-987-2239)
             </span>
           </div>
           <div className="contactIcon">
@@ -45,7 +47,8 @@ const Contact = () => {
             </div>
             <span>
               <b>Accounts Payable and Billing: </b>Trace Diagnostics, Inc.
-              <br /> 2033 N. Milwaukee Ave., Suite 120 <br/>Riverwoods, IL 60015
+              <br /> 2033 N. Milwaukee Ave., Suite 120 <br />
+              Riverwoods, IL 60015
             </span>
           </div>
 
@@ -55,7 +58,10 @@ const Contact = () => {
       </div>
       <div className="credit">
         Photo by:{" "}
-        <a target="_blank" href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        <a
+          target="_blank"
+          href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
           NASA
         </a>
       </div>

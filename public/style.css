@@ -89,7 +89,7 @@ button:hover {
   background-color: #086972;
 }
 
-.quote{
+.quote {
   color: white;
   width: 80%;
   padding-bottom: 25px;
@@ -130,7 +130,7 @@ button:hover {
   background-size: cover;
 }
 
-.subImageAnimal{
+.subImageAnimal {
   height: 400px;
   width: 100%;
   display: flex;
@@ -143,7 +143,7 @@ button:hover {
   background-size: cover;
 }
 
-.subImageHuman{
+.subImageHuman {
   height: 400px;
   width: 100%;
   display: flex;
@@ -250,21 +250,7 @@ li {
   right: 25px;
   height: 40px;
   width: 40px;
-
 }
-
-/* .linksContainer button {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-}
-
-.linksContainer:hover {
-  height: 40px;
-  width: 40px;
-  border: 1px solid #081f6b;
-  box-shadow: white;
-} */
 
 .nav_link {
   text-decoration: none;
@@ -377,7 +363,7 @@ li {
 
 /* TECHNICAL COMPLIANCE */
 
-.techImg{
+.techImg {
   box-shadow: -3px 4px 5px 0px rgba(8, 31, 107, 0.432);
 }
 
@@ -393,7 +379,7 @@ li {
   background-color: #086972;
 }
 
-.contactIcon{
+.contactIcon {
   display: flex;
   flex-flow: row nowrap;
   width: 50%;
@@ -412,7 +398,6 @@ li {
 .contactIcon span {
   width: 75%;
 }
-
 
 .contactIcon .circle {
   height: 100px;
@@ -490,11 +475,11 @@ li {
     font-size: 1.25rem;
   }
 
-  .contactIcon{
+  .contactIcon {
     width: 100%;
     padding: 0 20px 0 20px;
   }
-  .contactIcon span{
+  .contactIcon span {
     width: 60%;
   }
 }
@@ -544,7 +529,7 @@ li {
     padding: 0;
   }
 
-  .techImg{
+  .techImg {
     width: 200px;
   }
 }

@@ -51,12 +51,12 @@ const Home = () => {
           </button>
         </div>
 
-        <Fade in={myElementIsVisible} >
-          <div className="whoContainer" ref={aboutUs} >
+        <Fade in={myElementIsVisible}>
+          <div className="whoContainer" ref={aboutUs}>
             <div className="circle">
               <IoMdFingerPrint className="person" />
             </div>
-            <h1 >Who We Are </h1>
+            <h1>Who We Are </h1>
             <p ref={boxElement}>
               Trace Diagnostics, Inc. is a state of the art product development
               and manufacturing company whose corporate mission is to provide
@@ -78,7 +78,10 @@ const Home = () => {
       </div>
       <div className="credit">
         Photo by:{" "}
-        <a target="_blank" href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        <a
+          target="_blank"
+          href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
           NASA
         </a>
       </div>

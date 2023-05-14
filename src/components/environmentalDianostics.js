@@ -37,7 +37,13 @@ const Environmental = () => {
         </div>
       </div>
       <div className="credit">
-        Photo by:{" "}<a target="_blank" href="https://unsplash.com/de/@timothycdykes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Timothy Dykes</a> 
+        Photo by:{" "}
+        <a
+          target="_blank"
+          href="https://unsplash.com/de/@timothycdykes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
+          Timothy Dykes
+        </a>
       </div>
       <Footer />
     </div>
