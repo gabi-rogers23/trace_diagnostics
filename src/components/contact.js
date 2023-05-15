@@ -18,7 +18,9 @@ const Contact = () => {
               <FaMapMarkerAlt className="person" />
             </div>
             <span>
-              <b>Address: </b>Trace Diagnostics, Inc.
+              <b>Address & Accounts Payable and Billing: </b>
+              <br />
+              Trace Diagnostics, Inc.
               <br /> 830 Seton Court, Suite 12
               <br /> Wheeling, IL 60090
             </span>
@@ -39,16 +41,6 @@ const Contact = () => {
             <span>
               <b>E-Mail: </b>
               <a href="mailto:service@tracedx.com">service@tracedx.com</a>
-            </span>
-          </div>
-          <div className="contactIcon">
-            <div className="circle">
-              <MdManageAccounts className="person" />
-            </div>
-            <span>
-              <b>Accounts Payable and Billing: </b>Trace Diagnostics, Inc.
-              <br /> 2033 N. Milwaukee Ave., Suite 120 <br />
-              Riverwoods, IL 60015
             </span>
           </div>
 

@@ -4,7 +4,6 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Button,
   Fab,
 } from "@mui/material";
 import {
@@ -23,8 +22,7 @@ const data = [
   {
     name: (
       <NavLink to="/" end className="nav_link">
-        {" "}
-        Home{" "}
+        Home
       </NavLink>
     ),
     icon: <Home className="nav_link" />,
