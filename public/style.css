@@ -222,6 +222,7 @@ li {
   list-style: none;
 }
 
+
 /* NAVBAR */
 
 .navBarContainer {
@@ -265,6 +266,10 @@ li {
   box-shadow: none;
 }
 
+
+div.MuiListItemIcon-root{
+  width: 35px;
+}
 /* HOME */
 
 .homeContainer {

@@ -13,8 +13,8 @@ import {
   Pets,
   Biotech,
   Person,
-  Computer,
   ContactSupport,
+  AssignmentTurnedIn
 } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 
@@ -57,7 +57,7 @@ const data = [
         Technical Compliance
       </NavLink>
     ),
-    icon: <Biotech className="nav_link" />,
+    icon: <AssignmentTurnedIn className="nav_link" />,
   },
   {
     name: (
@@ -65,7 +65,7 @@ const data = [
         Product Development & Manufacturing
       </NavLink>
     ),
-    icon: <Computer className="nav_link" />,
+    icon: <Biotech className="nav_link" />,
   },
   {
     name: (
@@ -89,12 +89,12 @@ const NavDrawer = () => {
       }}
     >
       {data.map((item, index) => (
-        <div key={index}>
-          <ListItem>
-            <ListItemIcon>{item.icon}</ListItemIcon>
+      
+          <ListItem key={index}>
+            <ListItemIcon sx={{minWidth:"35px"}}>{item.icon}</ListItemIcon>
             <ListItemText primary={item.name} />
           </ListItem>
-        </div>
+        
       ))}
     </div>
   );
@@ -118,6 +118,11 @@ const NavDrawer = () => {
         anchor={"right"}
         transitionDuration={500}
         onClose={() => setOpen(false)}
+        children={{
+          sx: {
+            color:'red'
+          }
+        }}
       >
         {getList()}
       </Drawer>
