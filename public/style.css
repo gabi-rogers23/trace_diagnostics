@@ -387,9 +387,9 @@ div.MuiListItemIcon-root{
 .contactIcon {
   display: flex;
   flex-flow: row nowrap;
-  width: 50%;
+  width: 450px;
   height: auto;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 25px 0 0px 0px;
   color: white;
@@ -487,6 +487,10 @@ div.MuiListItemIcon-root{
   .contactIcon span {
     width: 60%;
   }
+
+  .techImg {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -529,12 +533,13 @@ div.MuiListItemIcon-root{
 
   .description {
     font-size: 1rem;
+    width: 90%;
   }
   .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
     padding: 0;
   }
 
   .techImg {
-    width: 200px;
+    width: 250px;
   }
 }
